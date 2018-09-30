@@ -8,7 +8,8 @@ void setup(){
 }
 
 void draw(){
-  background(100,100,100);
+  color bg = #646464, bodyStroke = #969696, bodyFill = #c8c8c8;
+  background(bg);
   
   // map the angle of second, minute and hour hands
   
@@ -21,8 +22,8 @@ void draw(){
   
   // body of the clock
   strokeWeight(8);
-  stroke(150,150,150);
-  fill(200,200,200);
+  stroke(bodyStroke);
+  fill(bodyFill);
   ellipse(0,0,300,300);
   
   // setting up small dots for each number 1 - 12 
