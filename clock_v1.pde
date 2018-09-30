@@ -3,7 +3,7 @@ float st,mt,ht,theta;
 int i;
 
 void setup(){
-  size(400,400);
+  size(800,800);
   smooth();
 }
 
